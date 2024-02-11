@@ -1,0 +1,14 @@
+{
+    "model_name": "model-b",
+    "model_ver": "v1",
+    "model_files": [
+        "main.py",
+        "__init__.py"
+    ],
+    "requirements": "requirements.txt",
+    "args": [
+        "https://www.siemensgamesa.com/en-int"
+    ],
+    "pre_run": null,
+    "post_run": null
+}

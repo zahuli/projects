@@ -1,0 +1,484 @@
+1682543217406	geckodriver	INFO	Listening on 127.0.0.1:65227
+1682543217518	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofile3y2DLB"
+2023-04-26 23:07:13.812 firefox-bin[35050:2627015] Unable to install helper!
+WebDriver BiDi listening on ws://127.0.0.1:65228
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:65228/devtools/browser/8b4a73dd-97db-4540-8cd3-087a6ebf0a34
+1682543289254	geckodriver	INFO	Listening on 127.0.0.1:65397
+1682543289766	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileeBmpl6"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682543290059	Marionette	INFO	Marionette enabled
+1682543290210	Marionette	INFO	Listening on port 65409
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+WebDriver BiDi listening on ws://127.0.0.1:65398
+Read port: 65409
+1682543290344	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileeBmpl6/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:65398/devtools/browser/cce1206b-f4b4-4910-930e-7c09621c22fb
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1682543295262	geckodriver	INFO	Listening on 127.0.0.1:65468
+1682543295774	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofile7DdvoC"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1682543296050	Marionette	INFO	Marionette enabled
+1682543296105	Marionette	INFO	Listening on port 65477
+console.error: "Warning: unrecognized command line flag -remote-allow-hosts\n"
+Read port: 65477
+WebDriver BiDi listening on ws://127.0.0.1:65469
+1682543296249	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at /var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofile7DdvoC/search.json.mozlz4", (void 0)))
+[ERROR glean_core] Error setting metrics feature config: Json(Error("EOF while parsing a value", line: 1, column: 0))
+DevTools listening on ws://127.0.0.1:65469/devtools/browser/8a1a1777-3fca-4f13-a549-54e6489d829e
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1682543333789	Marionette	INFO	Stopped listening on port 65409
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1682543335983	Marionette	INFO	Stopped listening on port 65477
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+console.error: "TelemetryScheduler.shutdown - Already shut down"
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  Waiting for ping task
+          Phase: TelemetryController: Waiting for pending ping activity
+          State: (none)
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: A blocker encountered an error while we were waiting.
+          Blocker:  TelemetryController: shutting down
+          Phase: profile-before-change-telemetry
+          State: Error getting state: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange" at addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+WARNING: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+WARNING: addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:727:15
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:523:26
+addBlocker@resource://gre/modules/AsyncShutdown.sys.mjs:458:15
+setupShutdown@resource://gre/modules/osfile/osfile_async_front.jsm:1548:28
+@resource://gre/modules/osfile/osfile_async_front.jsm:1568:16
+@resource://gre/modules/osfile.jsm:12:30
+@resource://gre/modules/TelemetryStorage.sys.mjs:10:28
+_checkPendingPings@resource://gre/modules/TelemetrySend.sys.mjs:863:17
+setup@resource://gre/modules/TelemetrySend.sys.mjs:803:18
+setup@resource://gre/modules/TelemetrySend.sys.mjs:241:30
+setupTelemetry/this._delayedInitTask<@resource://gre/modules/TelemetryControllerParent.sys.mjs:824:36
+observe@resource://gre/modules/AsyncShutdown.sys.mjs:576:16
+
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+JavaScript error: resource://gre/modules/AsyncShutdown.sys.mjs, line 727: Error: Phase "profile-before-change" is finished, it is too late to register completion condition "OS.File: flush I/O queued before profileBeforeChange"
+1695717483071	geckodriver	INFO	Listening on 127.0.0.1:51992
+1695717483498	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileyNtO2D"
+WebDriver BiDi listening on ws://127.0.0.1:51993
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:51993/devtools/browser/9c0d7ce8-c13e-43a8-af48-8a4bdb5e01da
+1695717538651	geckodriver	INFO	Listening on 127.0.0.1:52044
+1695717539167	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofile8h1rkD"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695717539463	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695717539646	Marionette	INFO	Listening on port 52050
+WebDriver BiDi listening on ws://127.0.0.1:52045
+Read port: 52050
+1695717539744	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52045/devtools/browser/3add38ea-00df-4b0a-a960-945adca68d2c
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1695717543314	geckodriver	INFO	Listening on 127.0.0.1:52117
+1695717543819	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofile4naAfn"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695717544101	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695717544291	Marionette	INFO	Listening on port 52123
+WebDriver BiDi listening on ws://127.0.0.1:52118
+Read port: 52123
+1695717544395	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:52118/devtools/browser/7a8e24fc-54f1-431c-8cd1-7637fb1c0772
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1695717579085	Marionette	INFO	Stopped listening on port 52050
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1695717582151	Marionette	INFO	Stopped listening on port 52123
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1695972005154	geckodriver	INFO	Listening on 127.0.0.1:59037
+1695972005631	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileDEMbj8"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695972005960	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695972006081	Marionette	INFO	Listening on port 59044
+WebDriver BiDi listening on ws://127.0.0.1:59038
+Read port: 59044
+1695972006210	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:59038/devtools/browser/33cc0337-653b-41b8-a719-20758304133b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1695972009609	geckodriver	INFO	Listening on 127.0.0.1:59110
+1695972010124	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileYOlZYq"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695972010413	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695972010606	Marionette	INFO	Listening on port 59116
+WebDriver BiDi listening on ws://127.0.0.1:59111
+Read port: 59116
+1695972010717	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:59111/devtools/browser/8e666b8e-14de-4ee5-bcb3-faa08dcc32d3
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1695972029391	Marionette	INFO	Stopped listening on port 59044
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1695972032299	Marionette	INFO	Stopped listening on port 59116
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1695972524296	geckodriver	INFO	Listening on 127.0.0.1:59241
+1695972524809	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileAqWDJw"
+WebDriver BiDi listening on ws://127.0.0.1:59242
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:59242/devtools/browser/8c2577fa-b807-4841-97ba-7402dd531924
+1695972571313	geckodriver	INFO	Listening on 127.0.0.1:59291
+1695972571827	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofile4oOmZ7"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695972572172	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695972572267	Marionette	INFO	Listening on port 59300
+WebDriver BiDi listening on ws://127.0.0.1:59292
+Read port: 59300
+1695972572402	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:59292/devtools/browser/bbaa0442-2660-4911-8e65-7a86ee16c5d6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1695972575775	geckodriver	INFO	Listening on 127.0.0.1:59366
+1695972576290	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileGlbCeF"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1695972576585	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1695972576771	Marionette	INFO	Listening on port 59372
+WebDriver BiDi listening on ws://127.0.0.1:59367
+Read port: 59372
+1695972576881	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:59367/devtools/browser/ec0e8756-142d-43ab-8160-f23765b90647
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1695972617013	Marionette	INFO	Stopped listening on port 59300
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1695972619956	Marionette	INFO	Stopped listening on port 59372
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1696339408025	geckodriver	INFO	Listening on 127.0.0.1:63348
+1696339408441	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofilezPevWt"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696339408769	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696339408877	Marionette	INFO	Listening on port 63355
+WebDriver BiDi listening on ws://127.0.0.1:63349
+Read port: 63355
+1696339409067	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63349/devtools/browser/f65f283b-34d1-4d90-a583-53361e282bfe
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1696339412429	geckodriver	INFO	Listening on 127.0.0.1:63421
+1696339412943	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileXlBzB0"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696339413198	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696339413383	Marionette	INFO	Listening on port 63427
+WebDriver BiDi listening on ws://127.0.0.1:63422
+Read port: 63427
+1696339413509	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63422/devtools/browser/d8a9ef3f-123e-4d03-a7ad-4a7903433527
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1696339469409	geckodriver	INFO	Listening on 127.0.0.1:63513
+1696339469922	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileUH2luo"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696339470181	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696339470368	Marionette	INFO	Listening on port 63521
+WebDriver BiDi listening on ws://127.0.0.1:63514
+Read port: 63521
+1696339470468	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63514/devtools/browser/db02ab46-9573-4c4d-85ab-f4bd986393ea
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1696339473606	geckodriver	INFO	Listening on 127.0.0.1:63588
+1696339474122	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileS3k19i"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1696339474375	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1696339474557	Marionette	INFO	Listening on port 63594
+WebDriver BiDi listening on ws://127.0.0.1:63589
+Read port: 63594
+1696339474682	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:63589/devtools/browser/47aa1b4f-1819-44f1-bcb5-8ed7bdf01719
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1696339494365	Marionette	INFO	Stopped listening on port 63355
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1696339499496	Marionette	INFO	Stopped listening on port 63521
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1696339503098	Marionette	INFO	Stopped listening on port 63594
+1696339506435	Marionette	INFO	Stopped listening on port 63427
+console.warn: TopSitesFeed: Failed to fetch data from Contile server: NetworkError when attempting to fetch resource.
+console.error: "Failed to fetch https://spocs.getpocket.com/user:" "NetworkError when attempting to fetch resource."
+1700561711145	geckodriver	INFO	Listening on 127.0.0.1:55526
+1700561711583	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofiletmhFfR"
+WebDriver BiDi listening on ws://127.0.0.1:55527
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:55527/devtools/browser/e200a891-0e68-414c-a8a3-eadfb21f5f74
+1700561778783	geckodriver	INFO	Listening on 127.0.0.1:55576
+1700561779303	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofiletM21Su"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700561779748	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700561779979	Marionette	INFO	Listening on port 55583
+Read port: 55583
+WebDriver BiDi listening on ws://127.0.0.1:55577
+1700561780150	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:55577/devtools/browser/1634783a-0e41-4588-8178-87de16500456
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1700561783946	geckodriver	INFO	Listening on 127.0.0.1:55640
+1700561784461	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileli0iqS"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700561785022	Marionette	INFO	Marionette enabled
+1700561785099	Marionette	INFO	Listening on port 55646
+WebDriver BiDi listening on ws://127.0.0.1:55641
+Read port: 55646
+1700561785244	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+DevTools listening on ws://127.0.0.1:55641/devtools/browser/80e6641a-2f4e-49b3-b511-049f0b5395c6
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1700561811326	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700561819647	geckodriver	INFO	Listening on 127.0.0.1:55691
+1700561820157	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofile3Wfxdi"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700561820458	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700561820671	Marionette	INFO	Listening on port 55697
+WebDriver BiDi listening on ws://127.0.0.1:55692
+Read port: 55697
+1700561820776	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:55692/devtools/browser/d0902fff-d8d7-439b-a601-673e7fdf4c4b
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1700561824325	geckodriver	INFO	Listening on 127.0.0.1:55754
+1700561824830	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileTdklR5"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+1700561825113	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1700561825308	Marionette	INFO	Listening on port 55760
+WebDriver BiDi listening on ws://127.0.0.1:55755
+Read port: 55760
+1700561825411	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:55755/devtools/browser/b5724f2f-806d-4800-95bc-178deaa7b090
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1700561851255	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700561855854	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1700561864969	Marionette	INFO	Stopped listening on port 55583
+1700561868331	Marionette	INFO	Stopped listening on port 55646
+1700561872441	Marionette	INFO	Stopped listening on port 55697
+1700561875514	Marionette	INFO	Stopped listening on port 55760
+1702888445173	geckodriver	INFO	Listening on 127.0.0.1:65363
+1702888445612	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofileJYmBcZ"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-12-18 09:34:05.968 firefox-bin[41998:1029474] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1702888446116	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1702888446212	Marionette	INFO	Listening on port 65372
+WebDriver BiDi listening on ws://127.0.0.1:65364
+Read port: 65372
+1702888446330	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:65364/devtools/browser/abfa293f-62e7-4efe-b420-5fd6e13f4ff8
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1702888449468	geckodriver	INFO	Listening on 127.0.0.1:65436
+1702888449981	mozrunner::runner	INFO	Running command: MOZ_CRASHREPORTER="1" MOZ_CRASHREPORTER_NO_REPORT="1" MOZ_CRASHREPORTER_SHUTDOWN="1" MOZ_NO_REMOTE="1" "/App ... s" "localhost" "-foreground" "-no-remote" "-profile" "/var/folders/40/gqm166853sx0tscm84c2qqmm0000gn/T/rust_mozprofilevamc0q"
+console.warn: services.settings: Ignoring preference override of remote settings server
+console.warn: services.settings: Allow by setting MOZ_REMOTE_SETTINGS_DEVTOOLS=1 in the environment
+2023-12-18 09:34:10.168 firefox-bin[42053:1030143] WARNING: Secure coding is not enabled for restorable state! Enable secure coding by implementing NSApplicationDelegate.applicationSupportsSecureRestorableState: and returning YES.
+1702888450275	Marionette	INFO	Marionette enabled
+console.error: "Warning: unrecognized command line flag" "-remote-allow-hosts"
+1702888450459	Marionette	INFO	Listening on port 65444
+WebDriver BiDi listening on ws://127.0.0.1:65437
+Read port: 65444
+1702888450558	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+UNSUPPORTED (log once): POSSIBLE ISSUE: unit 1 GLD_TEXTURE_INDEX_2D is unloadable and bound to sampler type (Float) - using zero texture because texture unloadable
+DevTools listening on ws://127.0.0.1:65437/devtools/browser/9cade3b5-82a9-4042-ab2d-df8e9de4186f
+console.warn: LoginRecipes: "Falling back to a synchronous message for: https://www.nbs.rs."
+1702888477072	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702888480330	addons.xpi	ERROR	System addon update list error SyntaxError: XMLHttpRequest.open: 'http://%(server)s/dummy-system-addons.xml' is not a valid URL.
+1702888489438	Marionette	INFO	Stopped listening on port 65444
+1702888496286	Marionette	INFO	Stopped listening on port 65372
