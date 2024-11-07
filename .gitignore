@@ -1,0 +1,17 @@
+# Mac OS
+.DS_Store
+
+
+
+# Environments
+.vscode
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Logs
+*.log
