@@ -1,3 +1,4 @@
-# Projects
+# Projects  
 
-Various Python stuff
+
+Various Python basic stuff
