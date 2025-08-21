@@ -72,3 +72,7 @@ l = [1, 2]
 
 for item in range(1, len(l)):
     print(l[item])
+
+
+for _ in range(5):
+    print(_)
