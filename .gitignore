@@ -16,3 +16,7 @@ venv.bak/
 
 # Logs
 *.log
+
+# Configuration files
+config.json
+appservice_prices.json
